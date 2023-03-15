@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <head lang="de">
 <style>
@@ -49,4 +50,57 @@ a {
 <a  title="Back to page 1"; href="http://127.0.0.1:5500/index.html">Zurück zu Seite 1</a>
 </form>
 </body>
+=======
+<!DOCTYPE html>
+<head lang="de">
+<style>
+input{
+  font-size: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+body {
+  font-size: 50px;
+  background-color: black;
+}
+
+a {
+  color:white;
+  font-size: 35px;
+}
+</style>
+<title>HTML Taschenrechner</title>
+</head>
+<body background-color= "#000000" text= "gold">
+
+<h1 title="Calculator">Taschenrechner</h1>
+<p title="Here you can see a calculator">Hier sehen Sie einen Taschenrechner:</p>
+<p title="You can even calculate with comma numbers. Instead of *,* you have to press *.* on the keyboard.">Du kannst sogar mit Kommazahlen rechnen. Anstatt "," musst du auf der Tastatur "." drücken.</p>
+    
+<form name="calculator" >
+<input type="button" value="1" onClick="document.calculator.ans.value+='1'">
+<input type="button" value="2" onClick="document.calculator.ans.value+='2'">
+<input type="button" value="3" onClick="document.calculator.ans.value+='3'"><br>
+<input type="button" value="4" onClick="document.calculator.ans.value+='4'">
+<input type="button" value="5" onClick="document.calculator.ans.value+='5'">
+<input type="button" value="6" onClick="document.calculator.ans.value+='6'">
+<input type="button" value="-" onClick="document.calculator.ans.value+='-'">
+<input type="button" value="/" onClick="document.calculator.ans.value+='/'"><br>
+<input type="button" value="7" onClick="document.calculator.ans.value+='7'">
+<input type="button" value="8" onClick="document.calculator.ans.value+='8'">
+<input type="button" value="9" onClick="document.calculator.ans.value+='9'">
+<input type="button" value="+" onClick="document.calculator.ans.value+='+'">
+<input type="button" value="*" onClick="document.calculator.ans.value+='*'"><br>
+<input type="button" value="0" onClick="document.calculator.ans.value+='0'"><br>
+
+<input type="reset" value="Zurücksetzen"; title="Reset">
+<input type="button" value="="; title="Equals" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)"><hr>
+<br>Antwort:<input type="textfield" name="ans" value=""><hr>
+
+<a  title="Back to page 1"; href="http://127.0.0.1:5500/index.html">Zurück zu Seite 1</a>
+</form>
+</body>
+>>>>>>> f83ab4bfac30e04e5cd06b6645c743832883a37e
 </html>
