@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head lang="de">
+<style>
+
+body {
+  background-color: rgb(0, 134, 11);
+  color: rgb(0, 0, 0);
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+h1 {
+  font-size: 90px;
+  background-color: blue;
+  color: aquamarine;
+  margin-right: 300px;
+  margin-left: 20px;
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+a {
+  font-size: 35px;
+  background-color: black;
+  color: white;
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+p {
+  font-size: 70px;
+  margin-top: 300px;
+  background-color: black;
+  color: white;
+  margin-top: 300px;
+  margin-bottom: 175px;
+  margin-right: 3300px;
+  margin-left: 10px;
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+div p{
+  font-size: 25px;
+  color:white;
+  background-color: black;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+#myDIV {
+  background-color:#FFFFFF;
+  width: 700px;
+  height: 300px;
+  margin-top: 100px;
+  margin-bottom: 300px;
+  margin-right: 30px;
+  margin-left: 10px;
+  font-size: 35px;
+}
+#myDIV div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: mymove 4s infinite;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 200px;}
+}
+@keyframes myothermove {
+  from {top: 0px;}
+  to {top: 200px;}
+}
+@keyframes mylastmove {
+  from {background-color: red;}
+  to {background-color: blue;}
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+#myyDIV {
+  background-color:#FFFFFF;
+  width: 700;
+  height: 300px;
+  margin-bottom: 300px;
+  margin-left: 10px;
+  margin-right: 3000px;
+  margin-top: 100px
+}
+
+#myyDIV div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: myyothermove 4s infinite;
+}
+
+@keyframes myymove {
+  from {left: 0px;}
+  to {left: 200px;}
+}
+@keyframes myyothermove {
+  from {top: 0px;}
+  to {top: 200px;}
+}
+@keyframes myylastmove {
+  from {background-color: red;}
+  to {background-color: blue;}
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+#myyyDIV {
+  background-color:#FFFFFF;
+  width: 700;
+  height: 300px;
+  margin-bottom: 575px;
+  margin-left: 10px;
+  margin-right: 3000px;
+  margin-top: 100px
+}
+
+#myyyDIV div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: myyylastmove 4s infinite;
+}
+
+@keyframes myyymove {
+  from {left: 0px;}
+  to {left: 200px;}
+}
+@keyframes myyyothermove {
+  from {top: 0px;}
+  to {top: 200px;}
+}
+@keyframes myyylastmove {
+  from {background-color: red;}
+  to {background-color: blue;}
+}
+/*-------------------------------------------------------------------------------------------------------------------*/
+</style>
+</head>
+<body>
+ 
+<h1 title="Animations";>Animationen</h1>
+
+<p style="margin-right: 1975px;color:gold; background-color: rgb(55, 46, 158);font-size: 75px;" title= "Animations are always made with 'keyframes'."">Animationen werden immer mit "Keyframes gemacht.</p>
+
+<p title="Animation 1">Animation 1</p>
+
+<div id="myDIV">
+  <div>
+    <p title="Sliding right"; style="margin-left: 1px;margin-right: 20;">Rutscht nach rechts</p>
+  </div>
+</div>
+
+<p title="Animation 2"> Animation 2</p>
+
+<div id="myyDIV">
+  <div>
+    <p title="Sliding down"; style="margin-left: 1px;margin-right: 20px;">Rutscht runter</p>
+  </div>
+</div>
+
+<p title="Animation 3">Animation 3</p>
+
+<div id="myyyDIV">
+  <div>
+    <p title="Changes colors"; style="margin-left: 2px;">Wechselt Farben</p>
+  </div>
+</div>
+
+<a  title="Back to page 1"; href="./index.html">Zurück zu Seite 1</a>
+
+</body>
+</html>
