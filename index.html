@@ -11,7 +11,7 @@ body {
 p {
   border: 1px solid black;
   margin-top: 50px;
-  margin-bottom: 400px;
+  margin-bottom: 100px;
   margin-right: 250px;
   margin-left: 80px;
   background-color: lightblue;
@@ -35,10 +35,10 @@ h1 {
   color:crimson;
   border: 1px solid black;
   margin-top: 100px;
-  margin-bottom: 175px;
+  margin-bottom: 125px;
   margin-right: 150px;
   margin-left: 80px;
-  font-size: 55px;
+  font-size: 65px;
   text-align: center;
 }
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -60,13 +60,36 @@ div {
   background-color: blue;
   color: white;
 }
+.Elefant {
+  height: 3.5vh;
+  width: 400px;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+  text-align: center;
+  animation: gradient 5s ease infinite;
+  margin-left: 1500px;
+  color:rgb(187, 255, 0);
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 </style>
 </head>
 <body>
 
 <h1 title="Links to other sites";>Links zu verschiedenen Seiten</h1>
-<p title="Here are some links:">Hier ein paar Links:</p>
+<p title="Here are some links:" style="font-size: 55px; margin-bottom: 225px;">Hier ein paar Links:</p><br><br><br><br><br><br>
+<p style="background-color: aqua;font-size: 52px;border: none; width: 300px; color: red; margin-left: 1500px; text-align: center; width: 400px;">HTML/CSS</p>
 
 <p class="Zeile" style="background-color: rgb(243, 117, 117); color:black">Erste Seite___________________Verschiedene Grenzen______________________Tabellen________________________Taschenrechner________________Steckbrief (Dwayne Johnson)</p>
 
@@ -75,6 +98,8 @@ div {
 <a  title="Page 3"; href="./A3%20index.html">3.Seite</a>
 <a  title="Page 4"; href="./A4%20index.html">4.Seite</a>
 <a  title="Page 5"; href="./A5%20index.html">5.Seite</a><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<p class="Elefant" style="background-color: rgb(243, 117, 117);font-size: 52px;border: none;">JavaScript</p>
 <p class="Zeilee" style="background-color: rgb(243, 117, 117); color:black">Glühbirne__________________Verschwinden/Erscheinen___________________Animationen</p>
 <a  title="Page 6"; href="./A6%20index.html">6.Seite</a>
 <a  title="Page 7"; href="./A7%20index.html">7.Seite</a>
