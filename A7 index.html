@@ -28,11 +28,11 @@ p {
   border: 1px solid black;
   margin-top: 300px;
   margin-bottom: 300px;
-  margin-right: 250px;
-  margin-left: 80px;
+  margin-right: 20px;
+  margin-left: 500px;
   background-color: rgb(42, 156, 90);
-  font-size:50px;
-  width: 3400px;
+  font-size: 700px;
+  width: 1400px;
 }
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 a {
@@ -64,19 +64,35 @@ button {
   margin-left: 800px;
   font-size: 40px;
 }
+.Hallo {
+    position:fixed;
+    top: 900px;
+    right: 1800px;
+}
+.Halloo {
+    position:fixed;
+    top: 900px;
+    right: 600px;
+}
+.Hallooo {
+    position:fixed;
+    top: 1500px;
+    right: 2700px;
+}
+
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 </style>
 </head>
 <body>
 
-<h1 title="";>Verschwinden und Erscheinen</h1>
+<h1 title="Disappear and Appear";>Verschwinden und Erscheinen</h1>
 
 
-<p id="demo"; style="font-size: 50px;text-align: center; background-color:aqua; margin-right: 700px; margin-left: 100px;";>Wenn du auf den Knopf drückst, verschwinde ich.</p>
-<button type="button" onclick="document.getElementById('demo').style.display='none';">Verschwinden</button>
-<button type="button" onclick="document.getElementById('demo').style.display='block';">Erscheinen</button>
+<p id="demo"; title="When you press the button, I disappear."; style="font-size: 50px;text-align: center; background-color:aqua; margin-right: 700px; margin-left: 1100px;";>Wenn du auf den Knopf "Verscwhinden" drückst, verschwinde ich.</p>
+<button class="Hallo"; title="Disappear"; type="button" onclick="document.getElementById('demo').style.display='none';">Verschwinden</button>
+<button class="Halloo"; title="Appear"; type="button" onclick="document.getElementById('demo').style.display='block';">Erscheinen</button>
 
-<a  title="Back to page 1"; href="./index.html">Zurück zu Seite 1</a>
+<a  class="Hallooo"; title="Back to page 1"; href="./index.html">Zurück zu Seite 1</a>
 
 </body>
 </html>
